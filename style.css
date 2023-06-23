@@ -127,6 +127,8 @@ body {
     border-radius: 20px;
     filter: grayscale(90%);
     transition: 1s;
+    background-position:center;
+    object-fit: cover;
 }
 
 .card img:hover {
@@ -274,6 +276,10 @@ button:hover {
         flex-basis: 100%;
     }
 
+    .container{
+     margin: 0 40px;
+    }
+
     .left,
     .right {
         flex-basis: 100%;
@@ -287,8 +293,21 @@ button:hover {
         margin-top: 40px;
     }
 
+    .project{
+        margin: 10px 40px;
+    }
+
+    .collaboration{
+        margin: 10px 40px;
+    }
+
+    .update{
+        margin: 10px 40px;
+    }
+
     .card {
         flex-basis: 100%;
+
         
     }
 
@@ -296,9 +315,9 @@ button:hover {
         width: 100%;
     }
 
-    .card img{
+    /* .card img{
         max-height: 250px;
-    }
+    } */
 
     .feed {
         flex-basis: 100%;
@@ -311,6 +330,10 @@ button:hover {
 
     button {
         margin-top: 10px;
+    }
+
+    .footer{
+        margin: 10px 40px;
     }
 
 }
